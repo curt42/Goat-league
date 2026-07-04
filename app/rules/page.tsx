@@ -9,21 +9,21 @@ export default function Rules() {
 
         <div className="rounded-xl border border-yellow-500 p-6">
           <h2 className="text-2xl font-bold">Eligibility</h2>
-          <p className="mt-3 text-gray-300">
-            GOAT League is a men's adult lacrosse league for players ages 18–40.
+          <p className="mt-3 text-gray-700">
+            GOAT League is a men's adult lacrosse league for players ages 18+.
           </p>
         </div>
 
         <div className="rounded-xl border border-yellow-500 p-6">
           <h2 className="text-2xl font-bold">Equipment</h2>
-          <p className="mt-3 text-gray-300">
+          <p className="mt-3 text-gray-700">
             All required lacrosse equipment must be worn during games, including a helmet, gloves, shoulder pads, arm pads, mouthguard, and protective cup.
           </p>
         </div>
 
         <div className="rounded-xl border border-yellow-500 p-6">
           <h2 className="text-2xl font-bold">Sportsmanship</h2>
-          <p className="mt-3 text-gray-300">
+          <p className="mt-3 text-gray-700">
             Respect teammates, officials, and opponents. Unsportsmanlike conduct may result in penalties or suspension.
           </p>
         </div>

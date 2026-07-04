@@ -12,8 +12,8 @@ export default function Schedule() {
           Coming Soon
         </h2>
 
-        <p className="mt-4 text-gray-300">
-          Games will be played on Sunday afternoons in Lexington, South Carolina.
+        <p className="mt-4 text-gray-700">
+          Games will be played on Saturday mornings at Lexington High School, Lexington, South Carolina.
         </p>
 
       </div>

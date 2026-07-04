@@ -2,19 +2,56 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="bg-black border-b border-yellow-500">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <Link href="/" className="text-3xl font-bold text-yellow-400">
+    <header className="sticky top-0 z-50 bg-[#003DA5] shadow-lg">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
+        {/* Logo */}
+        <Link
+          href="/"
+          className="text-3xl font-extrabold tracking-wide text-[#FDB927]"
+        >
           GOAT League
         </Link>
 
-        <nav className="flex gap-6 text-white font-semibold">
-          <Link href="/">Home</Link>
-          <Link href="/register">Register</Link>
-          <Link href="/schedule">Schedule</Link>
-          <Link href="/standings">Standings</Link>
-          <Link href="/rules">Rules</Link>
-          <Link href="/contact">Contact</Link>
+        {/* Navigation */}
+        <nav className="flex items-center gap-8 text-lg font-semibold">
+          <Link href="/" className="text-white transition hover:text-[#FDB927]">
+            Home
+          </Link>
+
+          <Link
+            href="/register"
+            className="text-white transition hover:text-[#FDB927]"
+          >
+            Register
+          </Link>
+
+          <Link
+            href="/schedule"
+            className="text-white transition hover:text-[#FDB927]"
+          >
+            Schedule
+          </Link>
+
+          <Link
+            href="/standings"
+            className="text-white transition hover:text-[#FDB927]"
+          >
+            Standings
+          </Link>
+
+          <Link
+            href="/rules"
+            className="text-white transition hover:text-[#FDB927]"
+          >
+            Rules
+          </Link>
+
+          <Link
+            href="/contact"
+            className="text-white transition hover:text-[#FDB927]"
+          >
+            Contact
+          </Link>
         </nav>
       </div>
     </header>

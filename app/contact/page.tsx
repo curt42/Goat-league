@@ -6,7 +6,7 @@ export default function ContactPage() {
           Contact GOAT League
         </h1>
 
-        <p>Email: info@goatleague.com</p>
+        <p>Email: curtis.corley1@gmail.com</p>
         <p>Lexington, South Carolina</p>
       </div>
     </main>
