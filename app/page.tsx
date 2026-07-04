@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-blue-50 text-gray-900">
@@ -27,12 +25,12 @@ export default function Home() {
         </p>
 
         <div className="mt-10">
-          <Link
-            href="/register"
-            className="rounded-lg bg-[#FDB927] px-8 py-4 text-xl font-bold text-[#003DA5] transition hover:bg-yellow-300"
+          <button
+            disabled
+            className="cursor-not-allowed rounded-lg bg-gray-500 px-8 py-4 text-xl font-bold text-white opacity-90"
           >
-            Register Now
-          </Link>
+            Registration Opens Soon
+          </button>
         </div>
       </section>
 
@@ -46,7 +44,13 @@ export default function Home() {
           GOAT League is an adult men's lacrosse league for players ages 18+.
           Whether you're fresh out of college, returning to the sport, or just
           looking for competitive games, GOAT League provides a high-energy,
-          organized league at Lexington High School, Lexington, South Carolina. The season will be 9 weeks long, garenteeing 10 games for every team. Week 9 will be a tournament to determine the league champion. The winning team will receive a trophy, championship t-shirts, and a grand prize. The league is designed to be competitive, but also fun and social. Players of all skill levels are welcome, and the league emphasizes sportsmanship and camaraderie.
+          organized league at Lexington High School, Lexington, South Carolina.
+          The season will be 9 weeks long, guaranteeing 10 games for every
+          team. Week 9 will be a tournament to determine the league champion.
+          The winning team will receive a trophy, championship t-shirts, and a
+          grand prize. The league is designed to be competitive, but also fun
+          and social. Players of all skill levels are welcome, and the league
+          emphasizes sportsmanship and camaraderie.
         </p>
       </section>
 
